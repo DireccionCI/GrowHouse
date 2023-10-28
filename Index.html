@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <title>Grow House</title>
+    <style type="text/css">
+        h1 {
+            background-color: #22b627;
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+
+        h2 {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+
+
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        #header {
+            margin: auto;
+            width: 500px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ul,
+        ol {
+            list-style: none;
+        }
+
+        .nav li a {
+            background-color: #22b627;
+            padding: 10px 15px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+            display: block;
+        }
+
+        .nav li a:hover {
+            background-color: #22b627;
+
+        }
+
+        .nav>li {
+            float: left;
+
+        }
+
+        .nav li ul {
+            display: none;
+            position: absolute;
+            min-width: 140px;
+
+        }
+
+        .nav li:hover>ul {
+            display: block;
+        }
+
+        #Titulo {
+            margin-bottom: 100px;
+            padding: 20px;
+        }
+
+        #title {
+            font-size: 24px;
+            color: #ffffff;
+            /* Cambia el color del título principal aquí */
+
+        }
+
+        #title {
+            margin-top: 55px;
+            font-size: 40px;
+        }
+
+        img {
+            max-width: 40%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        #Quienes {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+
+        }
+
+        #Quienes h2 {
+            font-size: 24px;
+            color: #ffffff;
+            /* Cambia el color del título de "Quiénes Somos" aquí */
+        }
+
+        #Quienes p {
+            font-size: 16px;
+            display: flex;
+            justify-content: right;
+        }
+
+        #Quienes img {
+            max-width: 400px;
+            height: auto;
+        }
+
+        #Int {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #ffffff;
+
+        }
+
+        #Int h2 {
+            font-size: 24px;
+            color: #ffffff;
+            /* Cambia el color del título de "Integrantes" aquí */
+        }
+
+        .team-member {
+            display: inline-block;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .team-member img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 100%;
+        }
+
+        .team-member p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        #Quienes {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+
+        }
+
+        #Problem h2 {
+            font-size: 24px;
+            color: #ffffff;
+            /* Cambia el color del título de "Quiénes Somos" aquí */
+        }
+
+        #Problem p {
+            display: flex;
+            justify-content: right;
+        }
+
+        #Problem img {
+            width: 400px;
+            height: 250px;
+
+
+        }
+
+        .tablaR {
+            max-width: 10%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .tempe {
+            display: flex;
+            justify-content: right;
+        }
+
+        .Temp {
+            max-width: 10%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <ul class="nav">
+            <li><a href="">Semestres</a>
+                <ul>
+                    <li><a href="#Quienes">¿Quiénes somos?</a></li>
+                    <li><a href="#Int">Integrantes</a></li>
+                </ul>
+            </li>
+
+            <li><a href="">Semestre 1 y 2.</a>
+                <ul>
+                    <li><a href="#Introduccion">Introduccion.</a></li>
+                    <li><a href="#Problem">Planteamiento del problema</a></li>
+                    <li><a href="#Obj">Objetivo general</a></li>
+                    <li><a href="#Esp">Objetivos especificos</a></li>
+                    <li><a href="#Delimitacion">Delimitacion</a></li>
+                    <li><a href="#Levantamiento">Levantamiento de informacion</a></li>
+                </ul>
+            </li>
+
+            <li><a href="">Semestre 3.</a>
+            <ul>
+                <li><a href="#Tabladeriesgo">Tabla de riesgo</a></li>
+                <li><a href="#Politicacal">Politica de calidad</li>
+                <li><a href="#Ambiental">Politica ambiental</a></li>
+                <li><a href="#Sensores">Sensores utilizados</a></li>
+                <li><a href="#Diagrama">Diagrama ISO</a></li>
+            </ul> 
+        </li>
+            <li><a href="">Semestre 4.</a></li>
+        </ul>
+    </div>
+
+    <div id="Titulo">
+        <h1 id="title">GrowHouse</h1>
+        <img src="D:\Todos\Proyectico\ProyectoIn\Imagenes\Invernadero1.jpeg" alt="Imagen Izquierda">
+    </div>
+
+    <div id="Quienes">
+        <h2>¿Quiénes Somos?</h2>
+        <p>Al ampliar información y darnos cuenta de los cambios climáticos actuales, nos hemos dado cuenta de lo
+            complejo que hoy en día ha sido mantener los cultivos en los invernaderos de Colombia. Con esto, hemos
+            llegado a la creación de una cortina plegable para mantener estos en buenas condiciones.</p>
+        <img src="D:\Todos\Proyectico\ProyectoIn\Imagenes\Invernadero2.jpeg" alt="Imagen Izquierda">
+    </div>
+
+    <div id="Int">
+
+        <h2>Integrantes</h2>
+        <div class="team-member">
+            <img src="D:\Todos\Proyectico\ProyectoIn\Imagenes\Mario.jpg" alt="Integrante 1">
+            <p>Mario Nicolas García</p>
+        </div>
+        <div class="team-member">
+            <img src="D:\Todos\Proyectico\ProyectoIn\Imagenes\Doria.jpg" alt="Integrante 2">
+            <p>Juan Camilo Doria</p>
+        </div>
+        <div class="team-member">
+            <img src="D:\Todos\Proyectico\ProyectoIn\Imagenes\Arevalo.jpg" alt="Integrante 3">
+            <p>Juan Manuel Arevalo</p>
+        </div>
+        <div class="team-member">
+            <img src="D:\Todos\Proyectico\ProyectoIn\Imagenes\Daniel.jpg" alt="Integrante 4">
+            <p>Edwin Daniel López</p>
+
+        </div>
+        <div id="Introduccion">
+            <h2>Introduccion</h2>
+            <p>Este proyecto se ha hecho a base de intercambio de conocimientos del grupo, ya que al hacer una
+                investigación amplia. Se pudo llegar a la creación de una cortina plegable para invernaderos con un
+                funcionamiento independiente y automático.</p>
+            <img src="D:\Todos\Proyectico\ProyectoIn\Imagenes\Introduccion.jpg" alt="Imagen Izquierda">
+        </div>
+        <div id="Problem">
+            <h2>Planteamiento del problema</h2>
+            <p>Este proyecto inicio principalmente como un producto con el fin de brindar una alternativa para espacios
+                cerrados que necesitan ventilación, luminosidad, entre otras características, estos tales como balcones
+                o patios de casas, pero se decidió encaminar este proyecto así una perspectiva social, económica y
+                cultural, buscando contribuir en estas diseñando una cortina automatizada pensando en las condiciones
+                óptimas que necesita los invernaderos en Colombia.</p>
+            <img class="plantita" src="D:\Todos\Proyectico\ProyectoIn\Imagenes\Materas.jpg" alt="">
+        </div>
+
+        <div id="Obj">
+            <h2>Objetivo general</h2>
+            <p>Elaborar una cortina automatizada que permita optimizar y controlar variables que afectan el buen
+                desarrollo de un invernadero.</p> <img class="plantita"
+                src="D:\Todos\Proyectico\ProyectoIn\Imagenes\Objeto.jpg" alt="">
+        </div>
+
+        <div id="Esp">
+            <h2>Objetivos especificos.</h2>
+            <center>
+                <p>- Identificar las variables a optimizar y controlar</p>
+            </center>
+            <center>
+                <p>- Generar un protototipo del circuito, para el sensado de variables analogas.</p>
+            </center>
+            <center>
+                <p>- Aplicar las normativas correspondientes a nuestro prototipo</p>
+            </center>
+            <p></p>
+            <img class="plantita" src="D:\Todos\Proyectico\ProyectoIn\Imagenes\Objetivo general.jpg" alt="">
+        </div>
+
+        <div id="Delimitacion">
+            <h2>Delimitacion y alcances</h2>}
+            <center>
+                <p>
+                <h3>Entre las problemáticas destacan 2 principales y sus sub-causales</h3>
+                </p>
+            </center>}
+            <center>
+                <p>1. Problemas de humedad</p>
+            </center>
+            <center>
+                <p>2. Problemas de temperatura</p>
+            </center>
+            <center>
+                <p>3. Tasa de ventilación</p>
+            </center>
+            <center>
+                <p>
+                <h3>Problemas de circulación</h3>
+                </p>
+            </center> }
+            <center>
+                <p>1. Distribución desigual de la temperatura y humedad</p>
+            </center>
+            <center>
+                <p>2. Fugas en las ventanas del invernadero</p>
+            </center>
+            <center>
+                <p>3. Acumulación de calor en la parte superior del invernadero</p>
+            </center>}
+            <p></p>
+            <img class="plantita" src="D:\Todos\Proyectico\ProyectoIn\Imagenes\Inv.jpg" alt="">
+        </div>
+        <div id="Levantamiento">
+            <h2>Levantamiento de informacion</h2>
+            <p>Para el levantamiento de informacion, nos enfocamos en la investigacion del funcionamiento de los
+                invernaderos ultimamente en colombia.
+
+                El invernadero tradicional ventilado naturalmente ha sido la alternativa más comúnmente utilizada para
+                el establecimiento de sistemas productivos protegidos en Colombia. Sin embargo, está probado que este
+                invernadero, a pesar de su bajo costo y facilidad de instalación, no suple de manera adecuada los
+                requerimientos climáticos de cultivos como los ornamentales, ubicados en zonas frías, como es la Sabana
+                de Bogotá. El diseño de estructuras de invernadero empleando herramientas de modelo y simulación, como
+                la dinámica de fluidos computacional permite explorar diseños alternativos de manera rápida y también a
+                un bajo costo.</p>
+            <img class="plantita" src="D:\Todos\Proyectico\ProyectoIn\Imagenes\Inv2.jpg" alt="">
+        </div>
+        <div id="3semestre">
+            <h1 id="title">Tercer semestre</h1>
+            <img src="D:\Todos\Proyectico\ProyectoIn\Imagenes\electrico.jpg" alt="Imagen centro">
+        </div>
+
+        <div id="Tabladeriesgo">
+            <h1 id="title">Tabla de riesgo tercer semestre</h1>
+            <img src="D:\Todos\Proyectico\ProyectoIn\Imagenes\Tabla.jpg" alt="Imagen centro">
+            <a href="D:\Todos\Proyectico\ProyectoIn\Imagenes\tabla-de-riesgos--1-.docx">
+                <img class="tablaR" src="D:\Todos\Proyectico\ProyectoIn\Imagenes\word.png" alt="">
+            </a>
+        </div>
+
+        <div id="Politicacal">
+            <h2>Politica de calidad</h2>
+            <p>El Proyecto Cortina plegable, cuenta con un sistema de calidad, el cual se encarga de la creación de
+                cortinas plegables para invernaderos con la mejor calidad y sistematización de este, cumpliendo con los
+                siguientes objetivos:</p>
+
+            <b>
+                <p>- Mantener la vida a largo plazo del invernadero.</p>
+                <p>- Cumplir con los objetivos específicos del cliente.</p>
+                <p>- Capacitar y entrenar al personal continuamente para una alta calidad de producto y satisfacción del
+                    cliente.</p>
+                <p>- Asegurar la alta calidad de la cortina plegable.</p>
+            </b>
+
+            <p>Los compañeros y/o grupo de proyecto, tienen conocimientos fuertes y están conscientes que además de
+                proporcionar materiales y personal para la creación de alta calidad de la cortina plegable, deben
+                aplicar las directrices que adjunta la norma ISO 9001, para así amplificar el mejoramiento de nuestros
+                procesos, creación y ventas de alta calidad de la Cortina plegable.</p>
+            <img class="plantita" src="D:\Todos\Proyectico\ProyectoIn\Imagenes\politica.png" alt="">
+        </div>
+        <div id="Ambiental">
+            <h2>Política Ambiental</h2>
+            <p>Para el Proyecto cortina plegable, es muy importante hacer el estudio a fondo del funcionamiento y usos
+                del invernadero a nivel nacional, para así implementar la cortina plegable y otorgan un buen
+                funcionamiento según Termino de la regla ISO 14001. Para que la autoridad proceda con su revisión y
+                aprobación para la otorgación de la licencia ambiental correspondiente para la operación de la cortina
+                plegable para invernaderos.
+
+                La cortina plegable no es un gran inconveniente a nivel de daños ambientales, ya que el funcionamiento
+                de esta se puede basar en la autonomía y consumo de energía solar por paneles que alimenten nuestras
+                batería y/o nuestra cortina para su debido funcionamiento.</p>
+            <img class="plantita" src="D:\Todos\Proyectico\ProyectoIn\Imagenes\ambiente.jpg" alt="">
+        </div>
+
+        <div id="Sensores">
+            <h2>IDENTIFICACIÓN DE LOS ELEMENTOS DE INSTRUMENTACIÓN Y SENSÓRICA.</h2>
+            <p>Como base de sensorica en el 1er semestre, Los sensores base fueron el barómetro y el anemómetro. Al
+                transcurrir el tiempo el grupo fue mejorando ideales para el cambio de estos sensores e implementar el
+                uso de sensores más versátiles y fácil de usar. Se determinó usar Sensores de temperatura y sensores de
+                humedad para determinar cambios en el invernadero y así dar el funcionamiento de la cortina plegable.
+            </p>
+            <img class="plantita" src="D:\Todos\Proyectico\ProyectoIn\Imagenes\Ardu.png" alt="">
+        </div>
+
+        <div id="">
+            <h2>SENSOR DE TEMPERTURA.</h2>
+            <p>Los sensores de temperatura son componentes eléctricos y electrónicos que, en calidad de sensores,
+                permiten medir la temperatura mediante una señal eléctrica determinada. Dicha señal puede enviarse
+                directamente o mediante el cambio de la resistencia.</p>
+            <img class="Temp" src="D:\Todos\Proyectico\ProyectoIn\Imagenes\Temp.jpg" alt="">
+
+        </div>
+        <div id="">
+            <h2>SENSOR DE HUMEDAD</h2>
+            <p>Los sensores de humedad son aparatos analógicos o digitales extremadamente útiles. Por ejemplo, en los
+                hogares y en los locales comerciales permiten medir el porcentaje de vapor de agua presente en el aire.
+                En base a ello, envían señales al sistema de climatización para que lo regule y lo sitúe en el rango de
+                confort. También alertan al usuario para que utilice humidificadores y deshumidificadores con los que
+                ajustarlo.</p>
+            <img class="Temp" src="D:\Todos\Proyectico\ProyectoIn\Imagenes\Sensor.jpg" alt="">
+
+        </div>
+        <div id="">
+            <h2> Motor Paso A Paso 28BYJ-48</h2>
+            <p>un pequeño motor paso a paso unipolar de bajo precio. Las características eléctricas del 28BYJ-48 son
+                modestas (trabaja a 5V), pero incorpora un reductor integrado que lo convierte en un componente mucho
+                más útil e interesante al trabajar con un paso de 5.625 grados</p>
+            <img class="Temp" src="D:\Todos\Proyectico\ProyectoIn\Imagenes\motor.jpg" alt="">
+
+        </div>
+        <div id="Diagrama">
+            <h2> DIAGRAMA ISA DE PROTOTIPO. </h2>
+            <p>El Panel solar es el encargado de alimentar todo el circuito de control y de potencia, llamado como
+                SISTEMA DE ALIMENTACIÓN
+
+                Se envía la energía recibida por el panel a una batería encargada de almacenar y suministrar la energía
+                necesaria al circuito de Potencia y al de Control, sin embargo, antes de llegar también hay una conexión
+                directa del Panel al circuito de control, por medio de un relevo (JYU 01)
+
+                En el CIRCUITO DE POTENCIA (IJK) encontramos la batería que va a enviar señal directa a los motores para
+                el funcionamiento de la cortina, y a su vez, cuando no exista luz necesaria para mantener el circuito
+                activo, por medio de un relevo (JYU 02) se envía la energía de la batería al circuito de control.
+
+                En el CIRCUITO DE CONTROL (UCU), se encuentra el manejo del código por medio de un Arduino 1, que
+                acoplará la señal recibida por los sensores de manera analógica y la convertirá en una señal digital,
+                dándole la indicación a los motores de abrir o cerrar las cortinas.
+
+                Los sensores aplicados en el circuito son de temperatura Ambiente (TEI) y dos sensores de humedad (MEI
+                01) y (MEI 02), encargados de enviar la señal análoga al Arduino y por este modo, dar la indicación del
+                movimiento de los motores</p>
+            <img class="" src="D:\Todos\Proyectico\ProyectoIn\Imagenes\Diagrama.jpg" alt="">
+
+        </div>
+    </div>
+</body>
+
+</html>
